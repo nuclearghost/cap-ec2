@@ -1,5 +1,5 @@
-# This repository is forked by Bilendo
-original repo: https://github.com/forward3d/cap-ec2
+# This repository is forked by [Bilendo.de](http://www.bilendo.de)
+original repository: https://github.com/forward3d/cap-ec2
 
 ---
 
@@ -9,7 +9,7 @@ original repo: https://github.com/forward3d/cap-ec2
 
 
 ### Installation:
-- add `gem 'cap-ec2', git: 'https://github.com/bilendo/cap-ec2.git', require: false` to your `Gemfile`
+- add `gem 'cap-ec2', git: 'https://github.com/bilendo/cap-ec2.git'` to your `Gemfile`
 - add `require 'cap-ec2/capistrano'` to your `Capfile`
 - run `bundle exec cap production ec2:status` to view your instances
 
