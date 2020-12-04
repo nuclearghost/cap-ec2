@@ -19,7 +19,7 @@ If you want to directly call `cap stage <command>` without the bundler prefix,
 install the gem globally:
 ```bash
 git clone git@github.com:bilendo/cap-ec2.git
-cd cap-ec2.git
+cd cap-ec2
 gem uninstall cap-ec2 # uninstall previous versions
 gem build cap-ec2.gemspec
 gem install cap-ec2-1.1.2.gem
