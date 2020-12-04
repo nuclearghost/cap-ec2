@@ -1,4 +1,4 @@
-require 'aws-sdk'
+require 'aws-sdk-ec2'
 
 module CapEC2
     module Utils
@@ -32,7 +32,7 @@ module CapEC2
         def self.contact_point_mapping
             {
                 public_dns: :public_dns_name,
-                public_ip: :public_ip_address,
+                public_ip:  :public_ip_address,
                 private_ip: :private_ip_address
             }
         end
