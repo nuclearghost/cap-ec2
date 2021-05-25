@@ -19,11 +19,11 @@ Gem::Specification.new do |spec|
     spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
     spec.require_paths = ['lib']
 
-    spec.add_development_dependency 'bundler', '~> 1.3'
+    spec.add_development_dependency 'bundler', '~> 2.1'
     spec.add_development_dependency 'rake'
 
     spec.add_dependency 'aws-sdk-ec2'
-    spec.add_dependency 'capistrano', '>= 3.0'
+    spec.add_dependency 'capistrano', '~> 3.15.0'
     spec.add_dependency 'colorize'
     spec.add_dependency 'terminal-table'
 end
