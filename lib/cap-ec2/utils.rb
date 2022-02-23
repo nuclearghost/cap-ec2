@@ -1,3 +1,5 @@
+require 'active_support'
+require 'active_support/core_ext/object/blank'
 require 'aws-sdk-ec2'
 
 module CapEC2
@@ -41,7 +43,7 @@ module CapEC2
             ec2_interface = contact_point_mapping[fetch(:ec2_contact_point)]
             return instance.send(ec2_interface) if ec2_interface
 
-            instance.public_dns_name || instance.public_ip_address || instance.private_ip_address
+            instance.public_dns_name.presence || instance.public_ip_address.presence || instance.private_ip_address.presence
         end
 
         def load_config

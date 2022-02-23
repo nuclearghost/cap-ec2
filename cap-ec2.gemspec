@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
     spec.add_development_dependency 'bundler', '~> 2.1'
     spec.add_development_dependency 'rake'
 
+    spec.add_dependency 'activesupport'
     spec.add_dependency 'aws-sdk-ec2'
     spec.add_dependency 'capistrano', '~> 3.15.0'
     spec.add_dependency 'colorize'
