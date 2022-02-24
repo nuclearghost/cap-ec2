@@ -6,6 +6,7 @@ original repository: https://github.com/forward3d/cap-ec2
 ### Changes:
 - fixed `YAML.load` command in `CapEC2::Utils#load_config`
 - require `aws-sdk-ec2` instead of whole sdk
+- fixed deployment in private subnet (private IP)
 
 
 ### Installation:
