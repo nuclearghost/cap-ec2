@@ -35,7 +35,8 @@ module CapEC2
             {
                 public_dns: :public_dns_name,
                 public_ip:  :public_ip_address,
-                private_ip: :private_ip_address
+                private_ip: :private_ip_address,
+                instance_id: :instance_id
             }
         end
 
