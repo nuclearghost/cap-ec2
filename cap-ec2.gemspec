@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
     spec.add_dependency 'activesupport'
     spec.add_dependency 'aws-sdk-ec2'
-    spec.add_dependency 'capistrano', '~> 3.15.0'
+    spec.add_dependency 'capistrano', '~> 3.17.0'
     spec.add_dependency 'colorize'
     spec.add_dependency 'terminal-table'
 end
